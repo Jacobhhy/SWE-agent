@@ -68,12 +68,12 @@ agent:
     - type: cache_control
       last_n_messages: 2
   model:
-    name: claude-sonnet-4-20250514
+    name: gpt-4o
 env:
   repo:
     github_url: https://github.com/SWE-agent/test-repo
   deployment:
-    image: tiny
+    image: python:3.11
     python_standalone_dir: ""
 problem_statement:
   github_url:
